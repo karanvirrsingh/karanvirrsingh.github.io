@@ -1,1 +1,136 @@
-<h1>Hello! This is Karanvir Singh Grewal's website.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karanvir | karanvir.tech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <style>
+        body { background-color: #030303; color: #f0f0f0; font-family: 'Inter', sans-serif; }
+        .glass-card { background: rgba(255, 255, 255, 0.02); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); transition: 0.3s ease; }
+        .glass-card:hover { border-color: #10b981; background: rgba(16, 185, 129, 0.05); }
+        .emerald-glow { text-shadow: 0 0 20px rgba(16, 185, 129, 0.6); }
+        .strength-tag { background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); color: #10b981; }
+    </style>
+</head>
+<body class="selection:bg-emerald-500">
+
+    <nav class="max-w-6xl mx-auto p-8 flex justify-between items-center sticky top-0 z-50 bg-black/50 backdrop-blur-md">
+        <span class="text-xl font-black tracking-tighter uppercase">Karanvir<span class="text-emerald-500">.tech</span></span>
+        <div class="flex gap-6 text-xs font-bold uppercase tracking-widest text-gray-400">
+            <a href="#education" class="hover:text-emerald-400 transition">Education</a>
+            <a href="#strengths" class="hover:text-emerald-400 transition">Strengths</a>
+            <a href="#projects" class="hover:text-emerald-400 transition">Research</a>
+        </div>
+    </nav>
+
+    <header class="max-w-4xl mx-auto text-center py-24 px-6">
+        <h1 class="text-5xl md:text-8xl font-black mb-8 tracking-tighter" id="typewriter"></h1>
+        <p data-aos="fade-up" class="text-lg text-gray-400 max-w-xl mx-auto mb-6">
+            B.Pharmacy Scholar focusing on clinical research and AI diagnostics.
+        </p>
+        <div data-aos="fade-up" data-aos-delay="200" class="flex justify-center gap-4">
+            <span class="strength-tag px-4 py-1 rounded-full text-xs font-bold uppercase">Clinical Analysis</span>
+            <span class="strength-tag px-4 py-1 rounded-full text-xs font-bold uppercase">Biochemistry</span>
+        </div>
+    </header>
+
+    <section id="education" class="max-w-6xl mx-auto px-6 mb-32">
+        <h2 class="text-sm font-mono text-emerald-500 mb-12 uppercase tracking-[0.3em]" data-aos="fade-right">Academic Journey</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div data-aos="fade-up" class="glass-card p-10 rounded-[2rem] border-l-4 border-l-emerald-500">
+                <div class="flex justify-between items-start mb-6">
+                    <i class="fas fa-university text-4xl text-emerald-500"></i>
+                    <span class="text-xs font-mono text-gray-500">2025 - 2029</span>
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-2">Lovely Professional University</h3>
+                <p class="text-emerald-400 font-bold mb-4">Bachelor of Pharmacy (B.Pharm)</p>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><i class="fas fa-check text-emerald-500 mr-2 text-[10px]"></i> Current CGPA: 8.13</li>
+                    <li><i class="fas fa-check text-emerald-500 mr-2 text-[10px]"></i> Core Focus: Pathophysiology & Biochemistry</li>
+                </ul>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100" class="glass-card p-10 rounded-[2rem] border-l-4 border-l-blue-500">
+                <div class="flex justify-between items-start mb-6">
+                    <i class="fas fa-award text-4xl text-blue-500"></i>
+                    <span class="text-xs font-mono text-gray-500">Jalandhar Cantt</span>
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-2">Army Public School</h3>
+                <p class="text-blue-400 font-bold mb-4">Medical Stream</p>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><i class="fas fa-check text-blue-500 mr-2 text-[10px]"></i> Score: 7.8 CGPA</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2 text-[10px]"></i> Strong foundation in Biological Sciences</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="strengths" class="max-w-6xl mx-auto px-6 mb-32">
+        <h2 class="text-sm font-mono text-emerald-500 mb-12 uppercase tracking-[0.3em]" data-aos="fade-right">Core Strengths</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div data-aos="zoom-in" class="glass-card p-6 rounded-2xl text-center">
+                <i class="fas fa-vial text-2xl text-emerald-500 mb-3"></i>
+                <h4 class="text-sm font-bold">Lab Techniques</h4>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="100" class="glass-card p-6 rounded-2xl text-center">
+                <i class="fas fa-users text-2xl text-emerald-500 mb-3"></i>
+                <h4 class="text-sm font-bold">Project Leadership</h4>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="200" class="glass-card p-6 rounded-2xl text-center">
+                <i class="fas fa-brain text-2xl text-emerald-500 mb-3"></i>
+                <h4 class="text-sm font-bold">AI Diagnostics</h4>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="300" class="glass-card p-6 rounded-2xl text-center">
+                <i class="fas fa-chart-line text-2xl text-emerald-500 mb-3"></i>
+                <h4 class="text-sm font-bold">Research Methodology</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="max-w-6xl mx-auto px-6 mb-32">
+        <div class="glass-card rounded-[2rem] overflow-hidden grid grid-cols-1 md:grid-cols-2" data-aos="fade-up">
+            <div class="p-12">
+                <span class="text-emerald-500 font-mono text-xs mb-4 block tracking-widest">RESEARCH SPOTLIGHT</span>
+                <h3 class="text-4xl font-bold mb-6 text-white">RETFound AI Project</h3>
+                <p class="text-gray-400 leading-relaxed mb-6">
+                    Led a team to deliver a deep-dive into retinal imaging foundation models.
+                </p>
+                <div class="flex gap-2">
+                    <span class="bg-white/5 px-3 py-1 rounded text-[10px] text-gray-300">OPHTHALMOLOGY</span>
+                    <span class="bg-white/5 px-3 py-1 rounded text-[10px] text-gray-300">DIAGNOSTICS</span>
+                </div>
+            </div>
+            <div class="bg-gradient-to-br from-emerald-900/20 to-black p-12 flex flex-col justify-center items-center border-l border-white/5">
+                <i class="fas fa-eye text-6xl text-emerald-500 mb-4 animate-pulse"></i>
+                <p class="text-[10px] text-gray-500 font-mono">RETINAL SCAN AI ANALYSIS</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="text-center p-20 border-t border-white/5">
+        <p class="text-gray-600 text-[10px] font-bold tracking-[0.5em] uppercase">Karanvir &copy; 2026 // KARANVIR.TECH</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        const app = document.getElementById('typewriter');
+        const typewriter = new Typewriter(app, { loop: true, delay: 75 });
+        typewriter
+            .typeString('I study at <span style="color: #10b981;">LPU.</span>')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('My focus is <span style="color: #3b82f6;">Pharmacy.</span>')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('I lead <span style="color: #a855f7;">Research.</span>')
+            .pauseFor(1500)
+            .start();
+    </script>
+</body>
+</html>
